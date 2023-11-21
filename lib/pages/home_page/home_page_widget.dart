@@ -48,11 +48,29 @@ class _HomePageWidgetState extends State<HomePageWidget> {
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
-        body: const SafeArea(
+        body: SafeArea(
           top: true,
           child: Column(
             mainAxisSize: MainAxisSize.max,
-            children: [],
+            children: [
+              Align(
+                alignment: const AlignmentDirectional(0.00, 0.00),
+                child: Text(
+                  'SAP CDC',
+                  style: FlutterFlowTheme.of(context).headlineLarge,
+                ),
+              ),
+              Align(
+                alignment: const AlignmentDirectional(0.00, 0.00),
+                child: Padding(
+                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 12.0, 0.0, 24.0),
+                  child: Text(
+                    'Pagina de Login',
+                    style: FlutterFlowTheme.of(context).bodyMedium,
+                  ),
+                ),
+              ),
+            ],
           ),
         ),
       ),
