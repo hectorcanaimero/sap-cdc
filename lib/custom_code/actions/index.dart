@@ -1,2 +1,1 @@
-export 'load_gigya.dart' show loadGigya;
-export 'set_screen.dart' show setScreen;
+export 'screen_set.dart' show screenSet;
