@@ -54,7 +54,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
           backgroundColor: FlutterFlowTheme.of(context).tertiary,
           automaticallyImplyLeading: false,
           title: Align(
-            alignment: const AlignmentDirectional(0.00, 0.00),
+            alignment: const AlignmentDirectional(0.0, 0.0),
             child: Text(
               'SAP CDC',
               style: FlutterFlowTheme.of(context).headlineLarge,
@@ -70,7 +70,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
             mainAxisSize: MainAxisSize.max,
             children: [
               Align(
-                alignment: const AlignmentDirectional(0.00, 0.00),
+                alignment: const AlignmentDirectional(0.0, 0.0),
                 child: Padding(
                   padding: const EdgeInsetsDirectional.fromSTEB(0.0, 24.0, 0.0, 24.0),
                   child: Text(
